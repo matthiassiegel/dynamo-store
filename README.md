@@ -1,6 +1,6 @@
 # DynamoStore — session storage in AWS DynamoDB for Rails apps
 
-A drop-in replacement for Rails' built-in CookieStore and ActiveRecord session storage options using the AWS DynamoDB database service.
+A replacement for Rails' built-in CookieStore and ActiveRecord session storage options using the AWS DynamoDB database service.
 
 Storing session data in cookies can be bad for a number of reasons: depending on the type of data, it can be a security concern, and the size is limited to 4KB, which can be a problem for some use cases where lots of data needs to be kept, such as the contents of a large shopping cart. Therefore storing sessions in the database makes sense, however using the app database with ActiveRecord can be painfully slow. DynamoDB is meant to be an alternative for Memcache with persistence.
 
