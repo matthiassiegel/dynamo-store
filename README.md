@@ -1,4 +1,4 @@
-# DynamoStore — session storage in AWS DynamoDB for Rails apps
+# DynamoStore — session storage in AWS DynamoDB for Rails
 
 A replacement for Rails' built-in CookieStore and ActiveRecord session storage options using the AWS DynamoDB database service.
 
